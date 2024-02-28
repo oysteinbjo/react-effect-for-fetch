@@ -11,7 +11,7 @@ function UsersSection() {
     .then(res => res.json())
     .then(data => setData(data))
   }, [])
-  console.log(data)
+
   return (
     <section>
       <h2>Users Section</h2>

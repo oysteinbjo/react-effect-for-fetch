@@ -4,7 +4,7 @@ const UsersListItem = ({ user }) => {
     const colorStyle = {
         background: user.favouriteColour
     }
-    console.log(colorStyle)
+
     return (
         <li style={colorStyle}>
             <img src={user.profileImage} />
