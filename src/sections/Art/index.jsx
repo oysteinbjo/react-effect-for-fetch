@@ -11,7 +11,6 @@ function ArtsSection() {
     .then(data => setData(data))
   }, [])
 
-  console.log(data)
 
   return (
     <section>
